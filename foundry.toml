@@ -1,0 +1,10 @@
+# https://book.getfoundry.sh/reference/config/overview
+
+[profile.default]
+src = "contracts"
+libs = ["lib"]
+#solc_version = "0.8.27"
+optimizer = true
+remappings = []
+
+# forge i foundry-rs/forge-std
